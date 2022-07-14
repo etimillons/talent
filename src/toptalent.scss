@@ -1,0 +1,56 @@
+ .talentCont{
+    text-align: center; 
+    margin: 0px;
+    padding: 0px;
+   
+    .recttext{
+        color: rgba(255, 255, 255, 1);
+        background-image:url(../public/images/talentRect.png) ; 
+        padding: 10%;       
+    }
+  
+.talent-grid{
+  margin-top: 5.3125rem;
+  margin-left: 0px;
+  padding: 0 9.9375rem ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap: 5rem;
+   grid-row-gap:3rem ;
+     
+   .topimg{
+    border-radius: 6rem;
+   }
+
+   .topname{
+    color: rgba(8, 68, 130, 1);
+   }
+  
+   .toplink{
+    text-decoration: none;
+    color:rgba(0, 174, 255, 1);
+    
+   }
+
+   .icons{
+    padding: 10px;
+    img{
+      margin-inline: 0.5rem;
+    }
+   }
+}
+
+@media screen and (max-width: 23.4375rem){
+.rect{
+  width:23.4375rem ;
+}  
+
+.talent-grid{
+//  display: flex;
+//  flex-direction: column;
+ grid-template-columns: 1fr 1fr 1fr;
+
+}
+}
+}
+
